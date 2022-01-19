@@ -1,0 +1,4 @@
+fileignoreconfig:
+- filename: .terraform.lock.hcl
+  checksum: 0c445df527e7266a39c90a53bb6fec2de74dbc023d4f980e58e05eed3b6cca88
+version: ""
