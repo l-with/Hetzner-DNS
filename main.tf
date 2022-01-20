@@ -26,8 +26,8 @@ module "dns_ipv6" {
     dns_record_ttl     = 60
 }
 
-// resource "null_resource" "long_run" {
-//   provisioner "local-exec" {
-//     command = "sleep 30"
-//   }
-// }
+resource "null_resource" "long_run" {
+  provisioner "local-exec" {
+    command = "sleep 30"
+  }
+}
